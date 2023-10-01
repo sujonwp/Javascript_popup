@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javaxscript Popup</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wraper">
+                <div class="hero-content">
+                    <h2>Lunar New Year Celebration</h2>
+                    <p>Make the coming year 2023 your best and most prosperous one ever. Let there be no room for transgressions or annoyances, and let prosperity always be present!
+                    </p>
+                    <div id="btn"><a href="">Get Offer</a></div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/image-14-1671384644163.png?v=1671384651" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Popup -->
+     <div id="modelbox">
+        <div>
+            <box-icon name='x' class="close-icon" onclick="closeModel()"></box-icon>
+        </div>
+        <img src="./image/banner.png" alt="">
+        <div class="offer-text">
+            <h2>Get 15% OFF</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, impedit? amet consectetur adipisicing
+            </p>
+            <form action="">
+                <input type="email" placeholder="Email Address">
+                <button type="submit">Subscribed</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
